@@ -1,0 +1,27 @@
+{
+  "name": "person",
+  "attributes": [
+    {
+      "name": "fn",
+      "value": "John"
+    },
+    {
+      "name": "ln",
+      "value": "Doe"
+    },
+    {
+      "name": "account",
+      "type": 3,
+      "children": [
+        {
+          "name": "iban",
+          "value": "8904"
+        },
+        {
+          "name": "holder",
+          "value": "Iván Corrales Solera"
+        }
+      ]
+    }
+  ]
+}
