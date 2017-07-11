@@ -10,6 +10,16 @@
       "value": "Doe"
     },
     {
+      "name": "gender",
+      "type": 2,
+      "value": "false"
+    },
+    {
+      "name": "age",
+      "type": 1,
+      "value": "32"
+    },
+    {
       "name": "account",
       "type": 3,
       "children": [
