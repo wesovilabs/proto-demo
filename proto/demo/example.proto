@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package demo;
+
+option go_package = "pb";
+
+message Element {
+
+    string name = 1;
+
+    repeated Attribute attributes = 2;
+
+    message Attribute {
+
+        string name = 1;
+
+        enum AttributeType {
+            STRING = 0;
+            NUMBER = 1;
+            BOOLEAN = 2;
+            NODE = 3;
+        }
+
+        AttributeType type= 2;
+
+        string  value = 3;
+
+        repeated Attribute children = 4;
+    }
+
+
+}
